@@ -1,0 +1,155 @@
+body {
+  direction:rtl;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+}
+
+#nav1 ul {
+  list-style:none;
+  width:360px;
+  margin:0 auto;
+}
+
+#nav1 ul li {
+  display:inline-block;
+  float:right;
+}
+
+#nav1 ul li a {
+  display:block;
+  background-color:#2f2f33;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  width:120px;
+  height:30px;
+  Padding-top:10px;
+}
+
+#nav1 ul li a:hover {
+  background-color:#3097D2;
+}
+
+#nav1 ul li a:active {
+  background-color:green;
+}
+
+#nav1 ul li ul {
+  display:none;
+  position:absolute;
+}
+
+#nav1 ul li:hover ul {
+  display:block;
+  width:120px;
+}
+
+#container {
+  clear:both;
+  width:960px;
+  margin:0 auto;
+}
+
+header img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  -webkit-border-radius:5px 5px 5px 5px;
+  border-radius:5px 5px 5px 5px;
+}
+
+header {
+  margin-bottom:50px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:100px;
+}
+
+#by {
+  margin-bottom:70px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header h1 {
+  margin-bottom:5px;
+  font-size:48pt;
+  text-shadow:6px 5px 8px #5F7B8D;
+}
+
+article h1 {
+  font-size:18pt;
+  margin-bottom:5px;
+  margin-right:85px;
+}
+
+p:nth-child(2) {
+  font-size:16pt;
+  margin-bottom:5px;
+  margin-left:80px;
+  margin-right:80px;
+  text-align:justify;
+}
+
+article img {
+  width:800px;
+  height:600px;
+}
+
+p:nth-child(4) {
+  margin-top:5px;
+  font-size:16pt;
+  margin-bottom:5px;
+  margin-left:80px;
+  margin-right:80px;
+  text-align:justify;
+}
+
+#copyright {
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#instaface {
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+#photomy {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+body {
+  background-image:url("/Alexander_portfolio/Portfolio_01/img/silver-background.jpg");
+}
+
+header h1 {
+  -webkit-animation:text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation:text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter:blur(12px);
+    filter:blur(12px);
+    opacity:0;
+  }
+  100% {
+    -webkit-filter:blur(0px);
+    filter:blur(0px);
+    opacity:1;
+  }
+}
+
